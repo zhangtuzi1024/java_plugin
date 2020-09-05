@@ -20,8 +20,5 @@ public class Application {
         dog.setType("狗");
         dog.setBreed("柯基");
         System.out.println(dog.toString());
-
-//        Dog dog = Dog.builder().id(1).name("狗").age(3).type("柯基").build();
-//        System.out.println(dog.toString());
     }
 }
