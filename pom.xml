@@ -15,6 +15,7 @@
         <module>mybatis-plus-generator</module>
         <module>mybatis-plus-project</module>
         <module>hutool</module>
+        <module>aop</module>
     </modules>
 
     <repositories>
@@ -88,6 +89,11 @@
                 <groupId>cn.hutool</groupId>
                 <artifactId>hutool-all</artifactId>
                 <version>5.4.1</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>3.4</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
