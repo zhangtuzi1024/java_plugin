@@ -18,11 +18,11 @@ public class MysqlGenerator {
 
     private static final String AUTHOR = "zhangtuzi";
 
-    private static final String MYSQL_URL = "jdbc:mysql://localhost:3306/test?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=UTC";
+    private static final String MYSQL_URL = "jdbc:mysql://localhost:3306/navigation_common_zjgs?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=UTC";
     private static final String MYSQL_USERNAME = "root";
     private static final String MYSQL_PASSWORD = "123456";
 
-    private static final String PACKAGE="com.zhangtuzi.study";
+    private static final String PACKAGE="com.zhangtuzi.app";
 
     public static String scanner(String tip) {
         Scanner scanner = new Scanner(System.in);
