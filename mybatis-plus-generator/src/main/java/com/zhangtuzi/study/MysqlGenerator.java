@@ -18,11 +18,11 @@ public class MysqlGenerator {
 
     private static final String AUTHOR = "zhangtuzi";
 
-    private static final String MYSQL_URL = "jdbc:mysql://localhost:3306/navigation_common_zjgs?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=UTC";
+    private static final String MYSQL_URL = "jdbc:mysql://localhost:3306/drawing_jilin_movecar?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=UTC";
     private static final String MYSQL_USERNAME = "root";
     private static final String MYSQL_PASSWORD = "123456";
 
-    private static final String PACKAGE="com.zhangtuzi.app";
+    private static final String PACKAGE="com.zhongwang.app";
 
     public static String scanner(String tip) {
         Scanner scanner = new Scanner(System.in);
@@ -100,7 +100,7 @@ public class MysqlGenerator {
         // 公共父类
         //strategy.setSuperControllerClass("你自己的父类控制器,没有就不用设置!");
         // 写于父类中的公共字段
-        strategy.setSuperEntityColumns("id");
+        //strategy.setSuperEntityColumns("id");
         strategy.setInclude(scanner("表名，多个英文逗号分割").split(","));
         strategy.setControllerMappingHyphenStyle(true);
         strategy.setTablePrefix(pc.getModuleName() + "_");
